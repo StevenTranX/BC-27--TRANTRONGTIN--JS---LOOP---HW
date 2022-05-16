@@ -15,12 +15,12 @@ function getResult () {
     let sum = 0;
    
     // let product = 0 
-    for (let  i = 1 ; i <= n , i++; ) {
+    for (let  i = 1 ; i <= n ; i++) {
         sum += x**i
     }
     
     const showDiv = document.getElementById("result");
     showDiv.style.display = "block" ; 
     showDiv.innerHTML = `<p> Tổng của phép tính là ${sum} </p>`
-    
+    return sum; 
 }
